@@ -54,12 +54,29 @@ HTTP API калькулятор.
 }
 ```
 
-## Установка
+## Установка и настройка
 
-1. Клонировать репозиторий с помощью `git cline`:
+1. Клонировать репозиторий с помощью `git clone`:
 ```bash
 # ssh
 git clone git@github.com:MoodyShoo/go-http-calculator.git
 # https 
 https://github.com/MoodyShoo/go-http-calculator.git
+```
+2. Перейти в репозиторий:
+```bash
+cd calc_go
+```
+3. По умолчанию сервис запускается на порту 8080.
+   Изменить на Windows:
+   ```cmd
+   set PORT=3000
+   ```
+   или
+   ```powershell
+   $env:PORT=3000;
+   ```
+5. Запустить приложение:
+```bash
+go run cmd/main.go
 ```
