@@ -124,3 +124,7 @@ curl -X POST http://127.0.0.1:8080/api/v1/calculate \
     - Spaces doesn't matter
     - Has letter in expression
     - Uncomplete expression
+  - Запуск отдельных тестов:
+    ```bash
+    go test -v run=ValidSum
+    ```
