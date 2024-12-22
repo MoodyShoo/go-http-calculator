@@ -68,7 +68,7 @@ https://github.com/MoodyShoo/go-http-calculator.git
 cd calc_go
 ```
 3. По умолчанию сервис запускается на порту 8080.
-   Изменить на Windows:
+   - Изменить на Windows:
    ```cmd
    set PORT=3000
    ```
