@@ -84,3 +84,5 @@ cd calc_go
 ```bash
 go run cmd/main.go
 ```
+6. Остановить приложенме:
+   Сочетание клавиш `Ctrl + C`
