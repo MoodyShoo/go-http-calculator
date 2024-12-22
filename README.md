@@ -31,7 +31,7 @@ HTTP API калькулятор.
 Ответ (Status 422 Unprocessable Entity):
 ```json
 {
-  {"error":"Expression is not valid"}`
+  {"error":"Expression is not valid"}
 }
 ```
 
@@ -44,6 +44,6 @@ HTTP API калькулятор.
 Ответ (Status 422 Unprocessable Entity):
 ```json
 {
-  {"error":"Expression is not valid"}`
+  {"error":"Expression is not valid"}
 }
 ```
