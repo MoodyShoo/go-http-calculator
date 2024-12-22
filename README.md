@@ -69,13 +69,14 @@ cd calc_go
 ```
 3. По умолчанию сервис запускается на порту 8080.
    - Изменить на Windows:
-   ```cmd
-   set PORT=3000
-   ```
-   или
-   ```powershell
-   $env:PORT=3000;
-   ```
+     ```cmd
+     set PORT=3000
+     ```
+     или
+     ```powershell
+     $env:PORT=3000;
+     ```
+  - Изменить в Linux:
 5. Запустить приложение:
 ```bash
 go run cmd/main.go
