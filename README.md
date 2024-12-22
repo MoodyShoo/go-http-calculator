@@ -76,10 +76,10 @@ cd calc_go
      ```powershell
      $env:PORT=3000;
      ```
-     - Изменить в Linux:
-    ```bash
-     PORT=1234
-    ```
+   - Изменить в Linux:
+      ```bash
+       PORT=1234
+      ```
 5. Запустить приложение:
 ```bash
 go run cmd/main.go
