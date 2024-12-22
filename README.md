@@ -2,6 +2,12 @@
 Yandex Golang practice 
 HTTP API калькулятор.
 
+## Возможности
+
+-Базовые арифметические операции(+, -, *, /)
+-Поддержка десятичных чисел(3.14)
+-Учитывает приорит операций (скобки приоритета, умножение, деление)
+
 ## Описание API
 
 ### Вычисление выражения
@@ -46,4 +52,14 @@ HTTP API калькулятор.
 {
   "error":"Expression is not valid"
 }
+```
+
+## Установка
+
+1. Клонировать репозиторий с помощью `git cline`:
+```bash
+# ssh
+git clone git@github.com:MoodyShoo/go-http-calculator.git
+# https 
+https://github.com/MoodyShoo/go-http-calculator.git
 ```
