@@ -76,7 +76,7 @@ cd calc_go
      ```powershell
      $env:PORT=3000;
      ```
-  - Изменить в Linux:
+     - Изменить в Linux:
     ```bash
      PORT=1234
     ```
