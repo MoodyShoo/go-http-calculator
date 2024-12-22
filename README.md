@@ -86,3 +86,41 @@ go run cmd/main.go
 ```
 6. Остановить приложенме:
    Сочетание клавиш `Ctrl + C`
+
+## Пример использования
+-Windows
+```cmd
+curl -X POST http://127.0.0.1:8080/api/v1/calculate -H "Content-Type: application/json" -d "{\"expression\": \"2 + 2\"}"
+```
+-Linux
+```bash
+curl -X POST http://127.0.0.1:8080/api/v1/calculate \
+-H "Content-Type: application/json" \
+-d '{"expression": "2 + 2"}'
+```
+
+Ожидаемый результат:
+```json
+{"result":4}
+```
+
+# Тестирование
+Тесты находятся в директории `/internal/application/application_test.go`
+- Запуск тестов
+  - Перейти в директорию:
+    ```bash
+    cd /internal/application
+    ```
+  - Запустить тесты:
+    ```bash
+    go test -v . 
+    ```
+  - Доступные тесты:
+    - Valid Sum
+    - Invalid Expression
+    - Invalid Request Body
+    - Valid Double Sum
+    - Expression Priority Order
+    - Spaces doesn't matter
+    - Has letter in expression
+    - Uncomplete expression
